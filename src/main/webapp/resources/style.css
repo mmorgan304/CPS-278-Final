@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'latobold';
+    src: url(lato/lato-bold-webfont.woff2) format('woff2'),
+    url(lato/lato-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url(lato/lato-regular-webfont.woff2) format('woff2'),
+    url(lato/lato-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url(lato/lato-light-webfont.woff2) format('woff2'),
+    url(lato/lato-light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* CSS for login container */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS for login title */
+.login-title {
+    font-family: latobold, sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+/* CSS for form group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* CSS for login button */
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fa4251;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #e03445;
+}
+
+/* CSS for admin login link */
+.admin-login-link {
+    font-size: 14px;
+    text-align: center;
+}
+
+.admin-login-link a {
+    color: #fa4251;
+    text-decoration: none;
+}
+
+.admin-login-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* CSS for admin container */
+.admin-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS for admin title */
+.admin-title {
+    font-family: latoregular, sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+/* CSS for admin menu */
+.admin-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-menu li {
+    margin-bottom: 10px;
+}
+
+.admin-menu li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #fff;
+    font-family: latoregular;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.admin-menu li a:hover {
+    background-color: #ffcccc;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.header-title {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'latobold';
+}
+
+.h2 {
+    font-size: 20px;
+    font-family: 'latolight';
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    text-align: right;
+    padding: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fa4251;
+    color: white;
+    font-family: latoregular;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e03445;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #b3b3b3;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+}
+
+.form-title {
+    font-family: latobold;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-family: latobold;
+    font-size: 15px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+.form-input {
+    font-family: latoregular;
+    font-size: 15px;
+    color: #333333;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-select {
+    font-family: latoregular;
+    font-size: 15px;
+    color: #333333;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-select:after {
+    content: "\25BC";
+    position: absolute;
+    top: calc(50% - 5px);
+    right: 10px;
+    pointer-events: none;
+}
+
+.form-submit {
+    font-family: latobold;
+    font-size: 15px;
+    color: white;
+    background-color: #fa4251;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.form-submit:hover {
+    background-color: #e03445;
+}
+
+.form-textarea {
+    font-family: Lato-Regular;
+    font-size: 15px;
+    color: gray;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* CSS for checkboxes */
+.form-checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+/* Hide the default checkboxes */
+.form-checkbox-group input[type="checkbox"] {
+    display: none;
+}
+
+/* Style the custom checkboxes */
+.form-checkbox-group label {
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+    margin-bottom: 5px; /* Adjust spacing between checkboxes */
+    font-family: latoregular;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Create the custom checkboxes */
+.form-checkbox-group label:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+/* Show the checkmark when the checkbox is checked */
+.form-checkbox-group input[type="checkbox"]:checked + label:before {
+    background-color: #fa4251;
+    border-color: #fa4251;
+}
+
+.form-checkbox-group label:after {
+    content: "\2713"; /* Unicode checkmark */
+    color: white;
+    font-size: 10px;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 3px;
+}
+
+.form-checkbox-group input[type="checkbox"]:checked + label:after {
+    visibility: visible;
+}
+
+/* --------------------------------------------   */
+/* White red table.                               */
+/* --------------------------------------------   */
+/* source: https://forum.obsidian.md/t/custom-css-for-tables-5-new-styles-ready-to-use-in-your-notes/17084 */
+.whiteRed table {
+    box-shadow:0 0 20px 0 rgba(0,0,0,.15);
+}
+.whiteRed th,
+.whiteRed td {
+    border: 0 none;
+}
+.whiteRed th {
+    font-family: latobold, arial, sans-serif;
+    font-size:15px;
+    color:#fa4251;
+    background-color: white !important;
+    border-bottom:1px solid #cccccc;
+    padding: 14px 15px;
+}
+.whiteRed td {
+    font-family: latoregular, Arial, sans-serif;
+    font-size:15px;
+    color:#333333;
+    line-height:1.5;
+    padding: 5px 15px;
+}
+.whiteRed table > tbody > tr {
+    border-bottom: 1px solid #cccccc;
+}
+.whiteRed table > tbody > tr:last-child > td {
+    border-bottom: 2px solid #b3b3b3;
+}
+.whiteRed tbody tr:hover td {
+    background-color: #ffcccc;
+    color: #4d4d4d;
+}
+/* --------------------------------------------   */
+.whiteRed-rounded table {
+    border-collapse: separate;
+    border: solid #b3b3b3 1px;
+    border-radius: 6px;
+    border-spacing: 0px;
+}
+.whiteRed-rounded table > tbody > tr > td {
+    border-bottom: 1px solid #ccccccbb;
+}
+.whiteRed-rounded table > tbody > tr:last-child > td {
+    border-bottom: thin #ccccccbb;
+}
+.whiteRed-rounded table th:first-of-type{
+    border-top-left-radius: 6px;
+}
+.whiteRed-rounded table th:last-of-type{
+    border-top-right-radius: 6px;
+}
+.whiteRed-rounded table tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+.whiteRed-rounded table tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+/* --------------------------------------------   */
+
+

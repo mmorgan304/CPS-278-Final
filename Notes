@@ -1,0 +1,7 @@
+
+- improve search function: split strings into component words and search for those
+- improve search: turn rating into an entity
+- improve search: search for film length
+- why does JSON return "empty : false" as a value for genre?
+
+- add security
